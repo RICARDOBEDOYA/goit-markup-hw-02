@@ -41,7 +41,7 @@ body {
 }
 .background {
   position: static;
-  width: 1600px;
+  width: 1900px;
   height: 400px;
   left: -4px;
   top: 80px;
@@ -51,7 +51,7 @@ body {
   position: absolute;
   width: 696px;
   height: 120px;
-  left: 300px;
+  left: 500px;
   top: 280px;
 
   font-family: "Roboto";
@@ -75,7 +75,7 @@ body {
   position: absolute;
   width: 261px;
   height: 50px;
-  left: 525px;
+  left: 725px;
   top: 430px;
 
   background: #2196f3;
@@ -107,7 +107,6 @@ body {
   color: #212121;
 }
 .secondtitle {
-
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
@@ -118,16 +117,95 @@ body {
 
   color: #212121;
 }
-.nametitle{
-    font-family: 'Roboto';
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 19px;
-/* identical to box height */
+.nametitle {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
 
-text-align: center;
-letter-spacing: 0.03em;
+  text-align: center;
+  letter-spacing: 0.03em;
 
-color: #212121;
+  color: #212121;
+}
+.description {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  /* or 171% */
+
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}
+
+.address {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  /* or 171% */
+
+  letter-spacing: 0.03em;
+
+  color: #ffffff;
+}
+.email {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  /* or 171% */
+
+  letter-spacing: 0.03em;
+
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.secondphone {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  /* or 171% */
+
+  letter-spacing: 0.03em;
+
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.backgrounddate{
+  position: relative;
+width: 1900px;
+height: 252px;
+left: 0px;
+top: 2158px;
+
+background: #2F303A;
+}
+
+.backgroundteam{
+position: static;
+width: 1900px;
+height: 1600px;
+left: 0px;
+top: 1510px;
+background: #F5F4FA;
+}
+.poster{
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  color: #212121;
+  background: #f5f4fa;
+  border-radius: 4px;
 }
