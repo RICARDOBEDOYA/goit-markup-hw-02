@@ -1,46 +1,58 @@
-body {
-  font-family: "Roboto", Courier, monospace;
+:root {
+  --brand-color: #2196f3;
 }
 
+body {
+  font-family: "Roboto", Courier, monospace;
+  font-style: normal;
+}
+a {
+  text-decoration: none;
+  color: currentColor;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
 .WebStudio {
   font-family: "Raleway";
-  font-style: normal;
   font-weight: 700;
   font-size: 26px;
   line-height: 31px;
   text-align: right;
   letter-spacing: 0.03em;
-  color: #2196f3;
+  color: var(--brand-color);
 }
 .button {
   font-family: "Roboto";
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.1;
   letter-spacing: 0.02em;
   color: #212121;
 }
-.button1 {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.02em;
-  color: #2196f3;
+.button:hover {
+  color: var(--brand-color);
 }
+
+.active {
+  color: var(--brand-color);
+}
+
 .date {
   font-family: "Roboto";
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.1;
   letter-spacing: 0.02em;
   color: #757575;
 }
+.date:hover {
+  color: var(--brand-color);
+}
 .background {
-  position: static;
   width: 1900px;
   height: 400px;
   left: -4px;
@@ -48,17 +60,15 @@ body {
   background: #2f303a;
 }
 .firsttitle {
-  position: absolute;
   width: 696px;
   height: 120px;
   left: 500px;
   top: 280px;
 
   font-family: "Roboto";
-  font-style: normal;
   font-weight: 900;
   font-size: 44px;
-  line-height: 60px;
+  line-height: 1.1;
   /* or 136% */
   text-align: center;
   letter-spacing: 0.06em;
@@ -72,7 +82,6 @@ body {
   padding: 10px 32px;
   gap: 10px;
 
-  position: absolute;
   width: 261px;
   height: 50px;
   left: 725px;
@@ -85,126 +94,92 @@ body {
 
 .text {
   font-family: "Roboto";
-  font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.1;
   /* or 171% */
 
   letter-spacing: 0.03em;
-
   color: #757575;
 }
 .title {
   font-family: "Roboto";
-  font-style: normal;
   font-weight: 700;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.1;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-
   color: #212121;
 }
 .secondtitle {
   font-family: "Roboto";
-  font-style: normal;
   font-weight: 700;
   font-size: 36px;
-  line-height: 42px;
-  text-align: center;
+  line-height: 1.1;
   letter-spacing: 0.03em;
-
   color: #212121;
 }
 .nametitle {
   font-family: "Roboto";
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 19px;
+  line-height: 1.1;
   /* identical to box height */
 
-  text-align: center;
+  
   letter-spacing: 0.03em;
-
   color: #212121;
 }
 .description {
   font-family: "Roboto";
-  font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.1;
   /* or 171% */
 
   letter-spacing: 0.03em;
-
   color: #757575;
 }
 
 .address {
   font-family: "Roboto";
-  font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  line-height: 24px;
-  /* or 171% */
-
+  line-height: 1.1;
   letter-spacing: 0.03em;
-
   color: #ffffff;
 }
 .email {
   font-family: "Roboto";
-  font-style: normal;
+
   font-weight: 400;
   font-size: 14px;
-  line-height: 24px;
-  /* or 171% */
-
+  line-height: 1.1;
   letter-spacing: 0.03em;
-
   color: rgba(255, 255, 255, 0.6);
 }
 
 .secondphone {
   font-family: "Roboto";
-  font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  line-height: 24px;
-  /* or 171% */
-
+  line-height: 1.1;
   letter-spacing: 0.03em;
-
   color: rgba(255, 255, 255, 0.6);
 }
 
-.backgrounddate{
-  position: relative;
-width: 1900px;
-height: 252px;
-left: 0px;
-top: 2158px;
-
-background: #2F303A;
+.backgrounddate {
+  background: #2f303a;
 }
 
-.backgroundteam{
-position: static;
-width: 1900px;
-height: 1600px;
-left: 0px;
-top: 1510px;
-background: #F5F4FA;
+.backgroundteam {
+  background: #f5f4fa;
 }
-.poster{
+.poster {
   font-family: "Roboto";
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 26px;
+  line-height: 1.1;
   color: #212121;
   background: #f5f4fa;
   border-radius: 4px;
